@@ -12,5 +12,144 @@ html {
 body {
   background-color: #FAFAFA;
   font-family: "Red Hat Display", sans-serif;
+  color: #28283D;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.logo {
+  margin-top: 4.8rem;
+  width: 12rem;
+}
+
+.hero {
+  padding-top: 4.8rem;
+  width: 110%;
+}
+
+.btn {
+  border-radius: 2.5rem;
+  font-size: 1.6rem;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  border: none;
+  color: #FAFAFA;
+}
+
+.btn-big {
+  padding: 1.6rem 4rem;
+  width: 19.3rem;
+}
+
+.btn-small {
+  width: 14.9rem;
+  padding: 1.6rem 2.9rem;
+}
+
+.circle-number {
+  position: relative;
+  margin-top: 14.8rem;
+  width: 5.6rem;
+  height: 5.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.6rem;
+  border-radius: 50%;
+  border: 1px solid #87879D;
+}
+
+.circle-number::before {
+  position: absolute;
+  width: 0.1rem;
+  height: 8.4rem;
+  top: -8.4rem;
+  content: '';
+  background-color: #87879D;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.header__text-box {
+  margin: 4.8rem 2.4rem 3.2rem;
+  max-width: 32.7rem;
+}
+
+.header__title {
+  padding: 0 2rem 2.4rem;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 4.4rem;
+}
+
+.header__text {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: 500;
+  color: #87879D;
+}
+
+.header__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__buttons .btn1 {
+  margin-bottom: 1.6rem;
+  background-color: #4D96A9;
+}
+
+.header__buttons .btn1:hover {
+  opacity: 0.7;
+}
+
+.header__buttons .btn1 span {
+  color: #8FE3F9;
+}
+
+.header__buttons .btn2 {
+  background-color: #855FB1;
+}
+
+.header__buttons .btn2:hover {
+  opacity: 0.7;
 }
 /*# sourceMappingURL=style.css.map */

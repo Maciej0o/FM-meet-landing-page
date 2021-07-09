@@ -1,0 +1,24 @@
+$white: #FAFAFA;
+$title-color: #28283D;
+$text: #87879D;
+$purple: #855FB1;
+$purple-light: #D9B8FF;
+$blue: #4D96A9;
+$blue-light: #8FE3F9;
+$font: 'Red Hat Display', sans-serif;
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $white;
+    font-family: $font;
+}

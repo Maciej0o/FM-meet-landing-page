@@ -1,1 +1,93 @@
-/* No CSS *//*# sourceMappingURL=large.css.map */
+@media (min-width: 1200px) {
+  .hero {
+    display: none;
+  }
+  .circle-number {
+    margin-top: 19.4rem;
+  }
+  .wrapper {
+    max-width: 54rem;
+  }
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .header__wrapper {
+    margin: 10.8rem 8.8rem 0;
+    width: 54rem;
+  }
+  .header .hero-d {
+    display: block;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 30rem;
+  }
+  .header .hero-left {
+    margin-top: 6.1rem;
+  }
+  .header .hero-right {
+    margin-top: 11.6rem;
+  }
+  .header__text-box {
+    margin: 0;
+  }
+  .header__title {
+    font-size: 6.4rem;
+    line-height: 6.4rem;
+    padding-bottom: 3.4rem;
+  }
+  .header__text {
+    font-size: 1.8rem;
+    padding-bottom: 3.4rem;
+  }
+  .aboutus__gallery {
+    width: 111rem;
+    margin: 6.1rem auto;
+  }
+  .aboutus__text-box {
+    padding-top: 8.3rem;
+  }
+  .aboutus__text {
+    font-size: 1.8rem;
+  }
+  .footer__wrapper {
+    padding: 0;
+    margin: 11.6rem 0 10.4rem;
+    max-width: 111rem;
+    width: 111rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .footer__title {
+    max-width: 35rem;
+    padding: 0;
+    margin: 0;
+  }
+  .footer__text {
+    max-width: 35rem;
+    padding: 0;
+  }
+  .footer .btn-footer {
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=large.css.map */

@@ -5,8 +5,8 @@
   .circle-number {
     margin-top: 16.4rem;
   }
-  .header {
-    max-width: 45.7rem;
+  .header__wrapper {
+    width: 45.7rem;
   }
   .header__title {
     font-size: 4.8rem;

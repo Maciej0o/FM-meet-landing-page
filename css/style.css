@@ -337,6 +337,9 @@ body {
 }
 
 @media (min-width: 1200px) {
+  .logo {
+    margin-top: 8rem;
+  }
   .hero {
     display: none;
   }

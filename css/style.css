@@ -13,6 +13,8 @@ body {
   background-color: #FAFAFA;
   font-family: "Red Hat Display", sans-serif;
   color: #28283D;
+  font-weight: 900;
+  line-height: 2.6rem;
 }
 
 .main {
@@ -86,7 +88,7 @@ body {
   background-color: #87879D;
 }
 
-.header {
+.header__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -151,5 +153,63 @@ body {
 
 .header__buttons .btn2:hover {
   opacity: 0.7;
+}
+
+.aboutus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.aboutus__gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 6.4rem 1.2rem 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aboutus__img {
+  padding: 0 1.2rem 2.4rem;
+  width: 50%;
+  overflow: hidden;
+}
+
+.aboutus__img img {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.aboutus__text-box {
+  padding: 6.4rem 2.4rem 0;
+  text-align: center;
+}
+
+.aboutus__sentence {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+  color: #4D96A9;
+}
+
+.aboutus__title {
+  padding: 2.4rem 2rem 0;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+}
+
+.aboutus__text {
+  padding-top: 3.2rem;
+  font-size: 1.6em;
+  font-weight: 500;
+  color: #87879D;
 }
 /*# sourceMappingURL=style.css.map */

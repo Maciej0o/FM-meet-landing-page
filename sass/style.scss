@@ -22,6 +22,8 @@ body {
     background-color: $white;
     font-family: $font;
     color: $title-color;
+    font-weight: 900;
+    line-height: 2.6rem;
 }
 
  .main {
@@ -84,10 +86,13 @@ body {
 }
 
 .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
     &__text-box {
         margin: 4.8rem 2.4rem 3.2rem;
@@ -134,5 +139,54 @@ body {
             }
         }
 
+    }
+}
+
+.aboutus {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__gallery {
+        display: flex;
+        margin: 6.4rem 1.2rem 0;
+        flex-wrap: wrap;
+    }
+
+    &__img {
+        padding: 0 1.2rem 2.4rem;
+        width: 50%;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            border-radius: 1.5rem;
+
+        }
+    }
+
+    &__text-box {
+        padding: 6.4rem 2.4rem 0;
+        text-align: center;
+    }
+
+    &__sentence {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        letter-spacing: .5rem;
+        color: $blue;
+    }
+
+    &__title {
+        padding: 2.4rem 2rem 0;
+        font-size: 3.2rem;
+        line-height: 3.6rem;
+    }
+
+    &__text {
+        padding-top: 3.2rem;
+        font-size: 1.6em;
+        font-weight: 500;
+        color: $text;
     }
 }

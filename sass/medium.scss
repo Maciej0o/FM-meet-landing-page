@@ -1,0 +1,72 @@
+@media(min-width: 768px){
+    .wrapper {
+        max-width: 57.3rem;
+    }
+
+    .circle-number {
+        margin-top: 16.4rem;
+    }
+
+    .header {
+        max-width: 45.7rem;
+
+        &__title {
+            font-size: 4.8rem;
+        }
+
+        &__buttons {
+            flex-direction: row;
+            justify-content: space-between;
+
+            .btn1 {
+                margin: 0 .4rem 0;
+            }
+
+            .btn2 {
+                margin: 0 .4rem;
+            }
+        }
+    }
+
+    .aboutus {
+
+        &__gallery {
+            margin: 6.7rem 1.6rem 0;
+        }
+
+        &__text-box {
+            padding-top: 4.8rem;
+        }
+
+        &__img {
+            width: 25%;
+        }
+
+        &__title {
+            max-width: 45.7rem;
+            padding-top: 1.6rem;
+            font-size: 4rem;
+            margin: 0 auto;
+        }
+    }
+
+    .footer {
+        background-image: url('../assets/tablet/image-footer.jpg');
+
+        &__title {
+            max-width: 45.7rem;
+            padding: 9.2rem 4rem 0;
+            font-size: 4rem;
+            margin: 0 auto;
+
+        }
+
+        &__text {
+            padding-top: 3.2rem;
+        }
+
+        .btn-footer {
+            margin: 4rem 0 6.6rem;
+        }
+    }
+}
